@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Projeto simples de calculo de IMC -->
+    <meta charset="UTF-8">
+    <title>Calculo de IMC</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+    <body>
+        <div class="container">
+            <table>
+                <tr>
+                    <th>Informe seu peso</th>
+                </tr>
+                <tr>
+                    <th><input class="txtS" type="text" id="txtPeso"    onkeypress="return numerosPermitidos()"></th>
+                </tr>
+                <tr>
+                    <th>Informe sua altura</th>
+                </tr>
+                <tr>
+                    <th><input class="txtS" type="text" id="txtAltura" onkeypress="return numerosPermitidos()"></th>
+                </tr>
+                <tr>
+                    <th><input type="button" id="btnCalculo" value="Calcular" onclick="calculoFinal()"></th>
+                </tr>
+                <tr>
+                    <th><label id="lblResultado"></label></th>
+                </tr>
+            </table>
+            
+        </div>
+    </body>
+</html>
